@@ -8,7 +8,7 @@ var connection = 0;
 
 var express = require('express');
 var app = express();
-server = app.listen(3000); //port 3000
+server = app.listen(8080); //port 3000
 
 app.use(express.static('public'));
 
