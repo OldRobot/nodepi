@@ -9,7 +9,7 @@ function setup(){
    
     noStroke();
 
-    socket = io.connect('192.168.1.123:8080');
+    socket = io.connect('localhost:8080');
     socket.on('mouse',newDrawing);
     socket.on('con',newMsg);
     socket.on('chat',newChat);
